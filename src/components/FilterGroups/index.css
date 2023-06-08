@@ -1,0 +1,22 @@
+.filter-type-title {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.list-container {
+  padding-left: 0px;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 6px;
+}

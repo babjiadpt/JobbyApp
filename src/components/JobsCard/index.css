@@ -1,0 +1,148 @@
+.card-item {
+  text-decoration: none;
+}
+
+.job-card-container {
+  background-color: #202020;
+  min-height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .job-card-container {
+    padding: 20px;
+  }
+}
+
+.company-role-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .company-logo {
+    width: 60px;
+  }
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.job-card-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .job-card-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-image {
+  color: #fbbf24;
+  width: 18px;
+}
+
+.rating {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.location-jobtype-package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location-jobtype-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon {
+  color: #ffffff;
+  height: 15px;
+  width: 15px;
+}
+
+.location {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 3px;
+}
+
+.jobtype-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.briefcase-icon {
+  color: #ffffff;
+  height: 15px;
+  width: 15px;
+}
+
+.employment-type {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.package {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .package {
+    font-size: 16px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 12px;
+  font-weight: 350;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 16px;
+    width: 95%;
+  }
+}
